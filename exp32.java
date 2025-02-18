@@ -1,3 +1,19 @@
+/*
+Medium Level
+Problem Statement: Write a Java program to simulate an ATM withdrawal system. The program should:
+
+Ask the user to enter their PIN.
+Allow withdrawal if the PIN is correct and the balance is sufficient.
+Throw exceptions for invalid PIN or insufficient balance.
+Ensure the system always shows the remaining balance, even if an exception occurs.
+
+Input Example:
+Enter PIN: 1234
+Withdraw Amount: 5000
+Output Example:
+Error: Insufficient balance. Current Balance: 3000
+
+*/
 import java.util.Scanner;
 
 class InvalidPINException extends Exception {
